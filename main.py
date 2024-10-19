@@ -15,7 +15,7 @@ pygame.init()
 pygame.mixer.init() # pygame sounds
  
 
-# Function to be called when button 1 is pressed
+# Function to be called when button 1 is pressed, can change file path
 def fact(): # random fact
     rand_fact = random.randint(1,5)
     if rand_fact == 1:
